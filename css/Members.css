@@ -1,0 +1,54 @@
+.bod,
+.faculty,
+.admin {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+}
+
+.members {
+ margin: 0.5rem;
+ width: 24rem;
+ display: flex;
+ padding: 1rem;
+ border-radius: 0.5rem;
+ background: #fff;
+ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+  rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.members:hover {
+ background: #ddd;
+ color: royalblue;
+}
+
+.members img {
+ width: 5rem;
+ border-radius: 50%;
+}
+
+.member-info {
+ padding: 1rem;
+}
+
+.name {
+ font: 1.25rem Georgia sans-serif;
+}
+
+.position {
+ margin-top: 0.5rem;
+ font: 1.125rem Helvetica sans-serif;
+ color: #999;
+}
+
+.content h1 {
+ margin: 2rem 0 1rem 0;
+ width: 100%;
+ text-align: center;
+}
+
+@media screen and (max-width: 960px) {
+  .members {
+    width: 100%;
+  }
+}

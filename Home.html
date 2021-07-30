@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link rel="icon" href="./media/transparent logo.png" type="image/icon type">
+  <link rel="stylesheet" href="./css/Common.css" />
+  <link rel="stylesheet" href="./css/Home.css" />
+  <link
+   href="https://fonts.googleapis.com/icon?family=Material+Icons"
+   rel="stylesheet"
+  />
+  <script src="./Common.js"></script>
+ </head>
+ <body>
+  <!-- header bar starts -->
+  <div id="header"></div>
+  <!-- header bar ends -->
+  <!-- primary body starts -->
+  <div class="primary">
+   <div class="video-bg">
+    <video autoplay muted loop id="myVideo">
+     <source src="./media/utec.mp4" type="video/mp4" />
+    </video>
+    <div class="gradient-overlay"></div>
+    <button id="myBtn" onclick="pauseplay()">I I</button>
+    <script>
+     // play or pause button
+     function pauseplay() {
+      var video = document.getElementById("myVideo");
+      var btn = document.getElementById("myBtn");
+      if (video.paused) {
+       video.play();
+       btn.innerHTML = "I I";
+      } else {
+       video.pause();
+       btn.innerHTML = "I>";
+      }
+     }
+    </script>
+   </div>
+
+   <div class="college">
+    <h1>U-TEC</h1>
+    <p>
+     The pure engineering college, dedicated for quality engineering education.
+    </p>
+    <div class="apply-now">
+     <a href="./Admission.html#online-form">
+      <img src="../media/apply.svg" /> APPLY NOW
+     </a>
+    </div>
+   </div>
+  </div>
+  <!-- primary body ends -->
+  <hr />
+  <!-- secondary body starts -->
+  <div class="secondary">
+   <div class="university">
+    <img src="../media/PU-logo.png" />
+    <p>
+     United Technical College is affiliated to Pokhara Universtiy. Thus, the
+     college functions under the guidelines provided by PU.
+    </p>
+    <a href="https://pu.edu.np/" class="learn-more">
+     <span class="material-icons">info</span>Learn more
+    </a>
+   </div>
+   <div class="notice">
+    <h1>NOTICE</h1>
+    <div>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, eum!</p>
+    </div>
+    <div>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, eum!</p>
+    </div>
+    <div>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, eum!</p>
+    </div>
+    <div>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, eum!</p>
+    </div>
+    <div>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, eum!</p>
+    </div>
+    <div>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, eum!</p>
+    </div>
+    <div>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, eum!</p>
+    </div>
+    <div>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, eum!</p>
+    </div>
+    <div>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, eum!</p>
+    </div>
+    <div>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, eum!</p>
+    </div>
+    <div>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, eum!</p>
+    </div>
+    
+   </div>
+  </div>
+  <!-- secondary body ends -->
+  <hr />
+  <!-- third body starts -->
+  <div class="third">
+   <div class="slider">
+    <input
+     type="radio"
+     name="slider"
+     title="slide1"
+     checked="checked"
+     class="slider__nav"
+    />
+    <input type="radio" name="slider" title="slide2" class="slider__nav" />
+    <input type="radio" name="slider" title="slide3" class="slider__nav" />
+    <input type="radio" name="slider" title="slide4" class="slider__nav" />
+    <input type="radio" name="slider" title="slide5" class="slider__nav" />
+    <div class="slider__inner">
+     <div class="slider__contents">
+      <img src="../media/civil.jpg" class="slider__image" />
+      <div class="slider-course">
+       <h1 class="slider__caption">Bachelor in Civil Engineering</h1>
+       <p class="slider__txt">
+        Civil engineering is a professional engineering discipline that deals
+        with the design, construction, and maintenance of the physical and
+        naturally built environment, including public works.
+       </p>
+       <p>
+        <a href="../html/Courses.html#civil" class="slider-link learn-more"
+         ><span class="material-icons">info</span> Learn more</a
+        >
+       </p>
+      </div>
+     </div>
+     <div class="slider__contents">
+      <img src="../media/computer.jpg" class="slider__image" />
+      <div class="slider-course">
+       <h1 class="slider__caption">Bachelor in Computer Engineering</h1>
+       <p class="slider__txt">
+        Computer engineering is a discipline that integrates several fields of
+        electrical engineering and computer science required to develop computer
+        hardware and software.
+       </p>
+       <p>
+        <a href="../html/Courses.html#computer" class="slider-link learn-more"
+         ><span class="material-icons">info</span> Learn more</a
+        >
+       </p>
+      </div>
+     </div>
+     <div class="slider__contents">
+      <img src="../media/elec.jpg" class="slider__image" />
+      <div class="slider-course">
+       <h1 class="slider__caption">Bachelor in Electrical Engineering</h1>
+       <p class="slider__txt">
+        Electrical engineering is an engineering discipline concerned with the
+        study, design and application of equipment, devices and systems which
+        use electricity, electronics, and electromagnetism.
+       </p>
+       <p>
+        <a href="../html/Courses.html#elec" class="slider-link learn-more"
+         ><span class="material-icons">info</span> Learn more</a
+        >
+       </p>
+      </div>
+     </div>
+     <div class="slider__contents">
+      <img src="../media/cm.jpg" class="slider__image" />
+      <div class="slider-course">
+       <h1 class="slider__caption">
+        Master of Science in Construction Management
+       </h1>
+       <p class="slider__txt">
+        The Master of Science in Construction Management program envisions
+        graduates with expertise and competence, and shall become leaders in the
+        field of construction management research and practice.
+       </p>
+       <p>
+        <a href="../html/Courses.html#cm" class="slider-link learn-more"
+         ><span class="material-icons">info</span> Learn more</a
+        >
+       </p>
+      </div>
+     </div>
+     <div class="slider__contents">
+      <img src="../media/meme1.png" class="slider__image" />
+      <div class="slider-course">
+       <h1 class="slider__caption">Don't be that kid.</h1>
+       <p class="slider__txt">
+        Fill your form now by clicking on the link below.
+       </p>
+       <p>
+        <a
+         href="../html/Admission.html#online-form"
+         class="slider-link learn-more"
+         >Apply now<span class="material-icons">edit</span></a
+        >
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- third body ends -->
+  <hr />
+  <!-- footer starts -->
+  <div id="footer"></div>
+  <!-- footer ends -->
+ </body>
+</html>

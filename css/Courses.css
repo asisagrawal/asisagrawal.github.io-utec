@@ -1,0 +1,39 @@
+.tooltip {
+ position: relative;
+ display: inline-block;
+ border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+ visibility: hidden;
+ width: 400px;
+ background-color: whitesmoke;
+ text-align: center;
+ border-radius: 6px;
+ padding: 5px 0;
+
+ /* Position the tooltip */
+ position: absolute;
+ z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+ visibility: visible;
+}
+
+h1 {
+ font-size: 2rem;
+}
+
+h3 {
+ font: 1.5rem Verdana;
+ text-decoration: underline;
+}
+p {
+ margin: 1rem 0;
+ text-align: justify;
+}
+
+.content tr th:nth-child(2) {
+ width: 30rem;
+}

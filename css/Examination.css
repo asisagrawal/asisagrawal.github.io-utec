@@ -1,0 +1,14 @@
+.content p {
+ margin: 1rem 0;
+ text-align: justify;
+}
+
+.content img {
+ width: 22rem;
+ float: right;
+}
+
+.content h2 {
+ margin-top: 2rem;
+ text-decoration: underline;
+}
